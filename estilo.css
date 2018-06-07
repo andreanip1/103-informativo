@@ -1,3 +1,102 @@
 body {
+    max-width: 600px;
+    margin:  60px auto 0px; /*em cima, lado baixo*/
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    border-top: solid 3px lightgray;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: lightgray;
+    display: inline-block;
+    margin-left: 280px;
+}
+
+p {
+    color: #666;
+}
+
+#primeiro {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.azul {
+    color: blue;
+}
+
+[abobrinha=menor]{
+    border: dotted 1px;
+    padding: 10px;
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+ol {
     margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+li {
+    background-color: black;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:visited {
+    font-weight: bold;
+    color: darkred;
+}
+
+li a:hover {
+    font-size: 18px;
+}
+
+.final {
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.final:nth-child(1) {
+    background-color: blue;
+}
+
+.final:nth-child(2) {
+    background-color: red;
+}
+
+.final:nth-child(3) {
+    background-color: green;
+}
+
+.final:nth-child(4) {
+    background-color: red;
+}
+
+.final:nth-child(5) {
+    background-color: blue;
 }
